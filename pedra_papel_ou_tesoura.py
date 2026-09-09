@@ -1,7 +1,7 @@
 jogada1 = str(input("Jogador 1 : Escolha pedra , papel ou tesoura e digite a seguir ->"))
 jogada2 = str(input("Jogador 2 : Escolha pedra , papel ou tesoura e digite a seguir ->"))
 
-if jogada1 == jogada2:
+if jogada1 == "pedra" and jogada2 == "pedra" or jogada1 == "papel" and jogada2 == "papel" or jogada1 == "tesoura" and jogada2 == "tesoura" :
     print (f"Os dois jogadores escolheram {jogada1} por tanto foi : EMPATE")
 
 elif jogada1 == "pedra" and jogada2 == "papel":
@@ -21,3 +21,6 @@ elif jogada1 == "tesoura" and jogada2 == "papel":
 
 elif jogada1 == "tesoura" and jogada2 == "pedra":
     print (f"Jogador 2 venceu. Pedra quebra a pedra")
+
+else:
+    print (" Jogada invalida")
