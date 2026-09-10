@@ -12,4 +12,4 @@ elif numero3>numero1 and numero3>numero2:
     print(f"O terceiro número:{numero3} é o maior número entre os três")
 
 else:
-    print(f"Os três números são iguais:{numero1} , {numero2} , {numero3}")
+    print(f"Os três números são iguais: {numero1} , {numero2} , {numero3}")

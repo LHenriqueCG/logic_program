@@ -10,9 +10,9 @@ if resultado == 0:
   print (f"{numero} é par")
 
 else:
-  print("É impar")  
+  print(f"{numero} é impar")  
 
 # passo 3: se não for -> "É Impar"
 
-print(f"Resultado é:  {numero / 2}")
-print (f"O resto é:{resultado}")
+print(f"A metade de {numero} é: {numero / 2}")
+print (f"O resto da divisão de {numero} por 2 é: {resultado}")
