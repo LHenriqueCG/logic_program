@@ -9,22 +9,22 @@ if jogador == "pedra" and pc == "pedra" or jogador == "papel" and pc == "papel" 
     print (f"Os dois jogadores escolheram {jogador}: EMPATE")
 
 elif jogador == "pedra" and pc == "papel":
-    print ("Jogador 2 venceu. Papel embrulha a pedra")
+    print ("A máquina venceu. Papel embrulha a pedra")
 
 elif jogador == "pedra" and pc == "tesoura":
-    print ("Jogador 1 venceu. Pedra quebra a tesoura")
+    print ("Você venceu. Pedra quebra a tesoura")
 
 elif jogador == "papel" and pc == "tesoura":
-    print ("Jogador 2 venceu. tesoura corta o papel")
+    print ("A máquina venceu. tesoura corta o papel")
 
 elif jogador == "papel" and pc == "pedra":
-    print ("Jogador 1 venceu. Papel embrulha a pedra")
+    print ("Você venceu. Papel embrulha a pedra")
 
 elif jogador == "tesoura" and pc == "papel":
-    print ("Jogador 1 venceu. Tesoura corta o papel")
+    print ("Você venceu. Tesoura corta o papel")
 
 elif jogador == "tesoura" and pc == "pedra":
-    print ("Jogador 2 venceu. Pedra quebra a pedra")
+    print ("A máquina venceu. Pedra quebra a pedra")
 
 else:
     print ("Jogada inválida!")
